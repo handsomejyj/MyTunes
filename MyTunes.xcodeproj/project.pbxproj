@@ -14,6 +14,9 @@
 		20606AA72114949B004F0E5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20606AA52114949B004F0E5E /* LaunchScreen.storyboard */; };
 		20606AB22114949B004F0E5E /* MyTunesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20606AB12114949B004F0E5E /* MyTunesTests.swift */; };
 		20606ABD2114949B004F0E5E /* MyTunesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20606ABC2114949B004F0E5E /* MyTunesUITests.swift */; };
+		592D3D43EAEE8B0DF45F6C75 /* Pods_MyTunesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5857F952244C8AB7A148A70 /* Pods_MyTunesUITests.framework */; };
+		602DC9BA7B8E5E35A5107521 /* Pods_MyTunes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0ED35E7855E73142248E2EE /* Pods_MyTunes.framework */; };
+		B6642DF446BA11D04DF97B2C /* Pods_MyTunesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04058D4C2F4D1FF815B95FB /* Pods_MyTunesTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,15 @@
 		20606AB82114949B004F0E5E /* MyTunesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyTunesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20606ABC2114949B004F0E5E /* MyTunesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTunesUITests.swift; sourceTree = "<group>"; };
 		20606ABE2114949B004F0E5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		816CAD8588C929FDBA7C22AF /* Pods-MyTunesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTunesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyTunesUITests/Pods-MyTunesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8CF9E4D1E649C1FAE1770EDD /* Pods-MyTunes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTunes.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyTunes/Pods-MyTunes.release.xcconfig"; sourceTree = "<group>"; };
+		9B90614AB0121FB934E48A06 /* Pods-MyTunesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTunesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyTunesTests/Pods-MyTunesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6CE843B23D9E56DD7A67E54 /* Pods-MyTunesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTunesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyTunesTests/Pods-MyTunesTests.release.xcconfig"; sourceTree = "<group>"; };
+		B5857F952244C8AB7A148A70 /* Pods_MyTunesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTunesUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B71A55D78E3DEF8121EE9FF6 /* Pods-MyTunes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTunes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyTunes/Pods-MyTunes.debug.xcconfig"; sourceTree = "<group>"; };
+		C04058D4C2F4D1FF815B95FB /* Pods_MyTunesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTunesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C473894A993F882033E2F98C /* Pods-MyTunesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTunesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyTunesUITests/Pods-MyTunesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0ED35E7855E73142248E2EE /* Pods_MyTunes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTunes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				602DC9BA7B8E5E35A5107521 /* Pods_MyTunes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6642DF446BA11D04DF97B2C /* Pods_MyTunesTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				592D3D43EAEE8B0DF45F6C75 /* Pods_MyTunesUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +96,8 @@
 				20606AB02114949B004F0E5E /* MyTunesTests */,
 				20606ABB2114949B004F0E5E /* MyTunesUITests */,
 				20606A9A2114949A004F0E5E /* Products */,
+				9CCD4FB67D3D827B4FB5E827 /* Pods */,
+				EE01D4535D9936726714622F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +142,29 @@
 			path = MyTunesUITests;
 			sourceTree = "<group>";
 		};
+		9CCD4FB67D3D827B4FB5E827 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B71A55D78E3DEF8121EE9FF6 /* Pods-MyTunes.debug.xcconfig */,
+				8CF9E4D1E649C1FAE1770EDD /* Pods-MyTunes.release.xcconfig */,
+				9B90614AB0121FB934E48A06 /* Pods-MyTunesTests.debug.xcconfig */,
+				A6CE843B23D9E56DD7A67E54 /* Pods-MyTunesTests.release.xcconfig */,
+				C473894A993F882033E2F98C /* Pods-MyTunesUITests.debug.xcconfig */,
+				816CAD8588C929FDBA7C22AF /* Pods-MyTunesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE01D4535D9936726714622F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0ED35E7855E73142248E2EE /* Pods_MyTunes.framework */,
+				C04058D4C2F4D1FF815B95FB /* Pods_MyTunesTests.framework */,
+				B5857F952244C8AB7A148A70 /* Pods_MyTunesUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +172,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20606AC12114949B004F0E5E /* Build configuration list for PBXNativeTarget "MyTunes" */;
 			buildPhases = (
+				18CED8616143B2F5A9FF3BEA /* [CP] Check Pods Manifest.lock */,
 				20606A952114949A004F0E5E /* Sources */,
 				20606A962114949A004F0E5E /* Frameworks */,
 				20606A972114949A004F0E5E /* Resources */,
+				4FBE8D2E52DAC50842F9E71E /* [CP] Embed Pods Frameworks */,
+				5E39CE624E30BD485839BB83 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +192,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20606AC42114949B004F0E5E /* Build configuration list for PBXNativeTarget "MyTunesTests" */;
 			buildPhases = (
+				C02600EF70CCE7006DEAC4C9 /* [CP] Check Pods Manifest.lock */,
 				20606AA92114949B004F0E5E /* Sources */,
 				20606AAA2114949B004F0E5E /* Frameworks */,
 				20606AAB2114949B004F0E5E /* Resources */,
+				4C88795237B58120EE7A6DCB /* [CP] Embed Pods Frameworks */,
+				9AE926B03A74E10EB7C18700 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20606AC72114949B004F0E5E /* Build configuration list for PBXNativeTarget "MyTunesUITests" */;
 			buildPhases = (
+				2945956EDDB562CE141035F1 /* [CP] Check Pods Manifest.lock */,
 				20606AB42114949B004F0E5E /* Sources */,
 				20606AB52114949B004F0E5E /* Frameworks */,
 				20606AB62114949B004F0E5E /* Resources */,
+				5FB364FAA68D2C85CBA506BC /* [CP] Embed Pods Frameworks */,
+				D8CAC8611F298642B901F733 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +299,153 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18CED8616143B2F5A9FF3BEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyTunes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2945956EDDB562CE141035F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyTunesUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C88795237B58120EE7A6DCB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyTunesTests/Pods-MyTunesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FBE8D2E52DAC50842F9E71E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyTunes/Pods-MyTunes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E39CE624E30BD485839BB83 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyTunes/Pods-MyTunes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FB364FAA68D2C85CBA506BC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyTunesUITests/Pods-MyTunesUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9AE926B03A74E10EB7C18700 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyTunesTests/Pods-MyTunesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C02600EF70CCE7006DEAC4C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyTunesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8CAC8611F298642B901F733 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyTunesUITests/Pods-MyTunesUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		20606A952114949A004F0E5E /* Sources */ = {
@@ -428,14 +624,12 @@
 		};
 		20606AC22114949B004F0E5E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B71A55D78E3DEF8121EE9FF6 /* Pods-MyTunes.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyTunes/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jyj.MyTunes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -445,14 +639,12 @@
 		};
 		20606AC32114949B004F0E5E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CF9E4D1E649C1FAE1770EDD /* Pods-MyTunes.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyTunes/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jyj.MyTunes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -462,16 +654,13 @@
 		};
 		20606AC52114949B004F0E5E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B90614AB0121FB934E48A06 /* Pods-MyTunesTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyTunesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jyj.MyTunesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -482,16 +671,13 @@
 		};
 		20606AC62114949B004F0E5E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6CE843B23D9E56DD7A67E54 /* Pods-MyTunesTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyTunesTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jyj.MyTunesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -502,15 +688,12 @@
 		};
 		20606AC82114949B004F0E5E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C473894A993F882033E2F98C /* Pods-MyTunesUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyTunesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jyj.MyTunesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -521,15 +704,12 @@
 		};
 		20606AC92114949B004F0E5E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 816CAD8588C929FDBA7C22AF /* Pods-MyTunesUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MyTunesUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jyj.MyTunesUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
